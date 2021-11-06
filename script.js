@@ -29,7 +29,7 @@ const createPokemonCard = (pokemon) => {
         <div class="info">
             <span class="number">${id}</span>
             <h3 class="name">${name}</h3>
-            <p class="type">${type}</p>
+            <p class="type">Type: ${type}</p>
         </div>`
     pokemonEl.innerHTML = pokeInnerHtml
     poke_container.appendChild(pokemonEl)
