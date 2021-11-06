@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: aqua;
+    background-image: url("media/fondo.png");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +16,11 @@ body {
 }
 
 h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    font-size: 4rem;
     letter-spacing: 3px;
+    text-shadow: 3px 3px 2px rgb(41, 40, 43);
 }
 
 .poke_container {
